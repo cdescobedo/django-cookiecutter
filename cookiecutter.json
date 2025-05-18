@@ -1,0 +1,9 @@
+{
+  "project_name": "Django Vite",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '-')|replace('-', '-')|replace('.', '-')|trim() }}",
+  "django_app_name": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+  "django_app_config_class_name": "{{ cookiecutter.project_name|title()|replace(' ', '')|replace('-', '')|replace('.', '')|trim() }}",
+  "description": "My Awesome Django Vite Project",
+  "version": "0.0.1",
+  "_copy_without_render": ["*.html"]
+}
